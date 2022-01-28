@@ -72,6 +72,7 @@ const Circle = styled(motion.span)`
   background-color: ${(props) => props.theme.red};
 `
 const Input = styled(motion.input)`
+  border-radius: 5px;
   transform-origin: right center;
   position: absolute;
   right: -25px;
